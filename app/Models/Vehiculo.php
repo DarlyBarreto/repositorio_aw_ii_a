@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Models;
 
-class Vehiculo extends Model
+class Vehiculos extends Models
 {
-    protected $fillable = ['tipo_vehiculo', 'categoria'];
+    protected $fillable = ['tipo_vehiculos', 'categorias'];
 
 }
